@@ -1,1 +1,99 @@
-/* Add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(28, 36, 49);
+  padding: 10px 30px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cabecalho img {
+  height: 75px;
+}
+
+.cabecalho h1 {
+  font-size: 25px;
+  color: #b4b4b4;
+}
+
+.anuncio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  
+}
+
+.anuncio-imagem img {
+  height: 600px;
+  max-width: 100%;
+  
+}
+
+.anuncio-texto {
+  max-width: 600px;
+}
+
+.anuncio-produto h1 {
+  font-size: 30px;
+  color: rgb(28, 36, 49);
+  margin-bottom: 20px;
+}
+
+.anuncio-descricao h2 {
+  font-size: 22px;
+  color: rgb(28, 36, 49);
+  margin-bottom: 45px;
+  margin: 30px;
+}
+
+.vantagens {
+  font-size: 16px;
+  color: rgb(28, 36, 49);
+  margin-bottom: 20px;
+}
+
+.vantagens ul {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.marcas h2 {
+  font-size: 20px;
+  margin: 70px 0 10px;
+  color: rgb(28, 36, 49);
+}
+
+.marcas ol {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(28, 36, 49);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button{
+background-color: rgb(28, 36, 49);
+font-size: 25px;
+font-weight:bold;
+color: #ffffff;
+}
+

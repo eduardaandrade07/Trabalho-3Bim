@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TechLar</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 36, 49);
+    padding: 10px 30px;
+
+  }
+
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cabecalho img {
+    height: 75px;
+  }
+
+  .cabecalho h1 {
+    font-size: 25px;
+    color: #b4b4b4;
+    margin: 0;
+  }
+
+  .barra {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+
+  .barra p {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #b4b4b4;
+  }
+
+  .produto-conteudo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  
+}
+
+.lava-louca {
+  max-width: 500px;
+}
+
+.lava-louca h1 {
+  font-size: 24px;
+  color:  rgb(28, 36, 49);
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 16px;
+  color:  rgb(28, 36, 49);
+  
+}
+
+.info h1{
+  font-size: 45px;
+}
+
+.comprar{
+  background-color: rgb(28, 36, 49);
+  color: #b4b4b4;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color:  rgb(28, 36, 49);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+</style>
+
+<body>
+  <header>
+    <div class="cabecalho">
+      <img src="./assets/logo.techlar.jpg" alt="Logo">
+      <h1>TechLar</h1>
+    </div>
+
+    <div class="barra">
+      <p>Buscar produtos...</p>
+      <button>🔍</button>
+    </div>
+
+    <div class="simbolos">
+      <span>👤</span>
+      <span>🛒</span>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="produto">
+    <div class="produto-conteudo">
+    <div class="lava-louca">
+      <h1>
+        Lava Louças Electrolux 10 Serviços Inox com Função de Higienizar
+       <br> (LL10X) 127V </h1>
+       <p> <strong>5</strong> ⭐⭐⭐⭐⭐</p>
+    <div class="info">
+      <br> 
+      <br> <p>A <strong>Lava Louças 10 Serviços LL10X</strong> é o produto que faltava para você.
+           O consumo de água é de 9,5L por ciclo, sendo que a mesma quantidade de louças lavada
+           à mão consome cerca de 90L. Economize água e tempo para lavar suas louças.</p>
+        <br>
+        <br>
+      <h1>R$3.990,00</h1>
+      <p> Em até 10x de 399,00 sem juros</p>
+    <br>
+    <button class="comprar">
+      Comprar 🛒
+
+    </button>
+          
+   </div>
+    </div>
+   <div class="imagem-produto">
+    <img src="./assets/produto.webp" alt="Lava-Louças">
+    </div>
+     </div>
+    </section>
+    </main>
+
+    <a href="../index.html">Voltar</a>
+  
+</body>
+
+</html>
