@@ -97,3 +97,14 @@ font-weight:bold;
 color: #ffffff;
 }
 
+button:hover{
+transform: scale(1.1);
+transition: transform 0.3s;
+}
+footer {
+  background-color: rgb(28, 36, 49);
+  color: #b4b4b4;
+  padding: 30px 20px 10px;
+  margin-top: 50px;
+  text-align: center;
+}
